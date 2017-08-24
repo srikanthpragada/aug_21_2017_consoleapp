@@ -1,0 +1,6 @@
+f:\classroom\aug22\ConsoleApp\bin\Debug\ConsoleApp.exe.config
+f:\classroom\aug22\ConsoleApp\bin\Debug\ConsoleApp.exe
+f:\classroom\aug22\ConsoleApp\bin\Debug\ConsoleApp.pdb
+f:\classroom\aug22\ConsoleApp\obj\Debug\ConsoleApp.csprojResolveAssemblyReference.cache
+f:\classroom\aug22\ConsoleApp\obj\Debug\ConsoleApp.exe
+f:\classroom\aug22\ConsoleApp\obj\Debug\ConsoleApp.pdb
