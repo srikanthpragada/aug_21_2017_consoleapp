@@ -1,4 +1,5 @@
-/app/*.js
-/app/*.js.*
-/assets/*.*
+/bin/*.*
+/obj/*.*
+/properties/*.*
+
 
