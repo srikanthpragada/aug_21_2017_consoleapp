@@ -12,30 +12,53 @@ namespace ConsoleApp
         private string name;
         private double price;
         private int qoh;
-        // Constructor 
-        public Product(string n, double p)
+        // class variable 
+        private static double taxRate = 18;
+
+        public static double TaxRate
         {
-            name = n;
-            price = p;
-        }
-        public void Print()
-        {
-            Console.WriteLine(name);
-            Console.WriteLine(price);
-            Console.WriteLine(qoh);
-        }
-        public string GetName()
-        {
-            return name;
+            get
+            {
+                return taxRate; 
+            }
+            set
+            {
+                if (value > 0)
+                    taxRate = value; 
+            }  
         }
 
+        // Constructor 
+        public Product(string name, double price)
+        {
+            this.name = name;
+            this.price = price; 
+        }
+        public Product(string name, double price, int qoh)
+        {
+            this.name = name;
+            this.price = price;
+            this.qoh = qoh;
+        }
+
+        public void Print()
+        {
+            Console.WriteLine(this.name);
+            Console.WriteLine(this.price);
+            Console.WriteLine(this.qoh);
+        }
+        
         public double GetPrice()
         {
             return price; 
         }
-        public double GetNetPrice()
+        // Readonly property
+        public double NetPrice
         {
-            return price + 1.18;
+            get
+            {
+                return price + price * taxRate / 100;
+            }
         }
 
         public void Purchase(int qty)
@@ -50,6 +73,20 @@ namespace ConsoleApp
             else
                 Console.WriteLine("Sorry! Insufficient quantity!");
         }
+
+        // Read write property 
+        public string Name
+        {
+            get
+            {
+                return name;
+            }
+            set
+            {
+                if (value != "")
+                    name = value; 
+            }
+        }
     }
     class TestProduct
     {
@@ -57,15 +94,13 @@ namespace ConsoleApp
         {
             Product p; // object reference 
 
-            p = new Product("Dell Laptop", 55000);  
+            p = new Product("Dell Laptop", 55000,10);
+            Console.WriteLine(p.NetPrice);
 
-            //if (p.GetNetPrice() > 50000)
-            //    Console.WriteLine("{0} is Costly Product", p.GetName());
+            Product.TaxRate = 15;
+            Console.WriteLine(p.NetPrice);
 
-            p.Purchase(10);
-            p.Sell(3);
-
-            p.Print();
+            Console.WriteLine( Product.TaxRate);
 
 
         }
