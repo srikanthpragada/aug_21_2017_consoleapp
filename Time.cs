@@ -48,7 +48,6 @@ namespace ConsoleApp
             Console.WriteLine("{0}:{1}:{2}", t1.Hours, t1.Mins, t1.Secs);
 
 
-
         }
     }
 }
