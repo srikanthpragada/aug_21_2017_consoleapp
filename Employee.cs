@@ -16,6 +16,9 @@ namespace ConsoleApp
         {
             this.empno = empno;
             this.name = name;
+            if (salary < 0)
+                throw new ArgumentException("Invalid Salary. Must be >= 0");
+
             this.salary = salary;
         }
 
@@ -97,7 +100,7 @@ namespace ConsoleApp
             Console.WriteLine(e.GetNetSalary());  // runtime poly
 
 
-            e = new Programmer(2, "Mr. Bill", 38383, "MS.NET");  
+            e = new Programmer(2, "Mr. Bill", -10000, "MS.NET");  
             e.Print();  // Runtime Polymorphism
             Console.WriteLine(e.GetNetSalary()); // runtime poly
 
