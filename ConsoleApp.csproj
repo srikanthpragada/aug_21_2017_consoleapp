@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp.PointDemo</StartupObject>
+    <StartupObject>ConsoleApp.DateDemo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,10 +46,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AverageOfNumbers.cs" />
+    <Compile Include="DateDemo.cs" />
     <Compile Include="Employee.cs" />
     <Compile Include="Factorial.cs" />
     <Compile Include="FunDemo.cs" />
     <Compile Include="LeapYear.cs" />
+    <Compile Include="Person.cs" />
     <Compile Include="PointDemo.cs" />
     <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />
