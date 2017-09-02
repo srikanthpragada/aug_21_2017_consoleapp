@@ -1,5 +1,6 @@
-/bin/*.*
-/obj/*.*
-/properties/*.*
+
+/bin/**
+/obj/**
+/properties/**
 
 
