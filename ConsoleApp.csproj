@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp.TestStack</StartupObject>
+    <StartupObject>ConsoleApp.DelegateDemo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,6 +48,7 @@
     <Compile Include="AverageOfNumbers.cs" />
     <Compile Include="CSharpViewer.cs" />
     <Compile Include="DateDemo.cs" />
+    <Compile Include="DelegateDemo.cs" />
     <Compile Include="dynamicdemo.cs" />
     <Compile Include="Employee.cs" />
     <Compile Include="ExtensionMethodDemo.cs" />
