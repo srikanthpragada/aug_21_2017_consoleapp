@@ -32,9 +32,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp.SortedDirectory2</StartupObject>
+    <StartupObject>ConsoleApp.UseHrLibrary</StartupObject>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="HrLibrary">
+      <HintPath>..\HrLibrary\bin\Debug\HrLibrary.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -53,6 +56,7 @@
     <Compile Include="Employee.cs" />
     <Compile Include="ExtensionMethodDemo.cs" />
     <Compile Include="Factorial.cs" />
+    <Compile Include="FormatDemo.cs" />
     <Compile Include="FunDemo.cs" />
     <Compile Include="ImplictVar.cs" />
     <Compile Include="LeapYear.cs" />
@@ -70,7 +74,9 @@
     <Compile Include="Swap.cs" />
     <Compile Include="SwitchDemo.cs" />
     <Compile Include="Time.cs" />
+    <Compile Include="TupleDemo.cs" />
     <Compile Include="UseDelegate.cs" />
+    <Compile Include="UseHrLibrary.cs" />
     <Compile Include="WriteMobileNumbers.cs" />
   </ItemGroup>
   <ItemGroup>

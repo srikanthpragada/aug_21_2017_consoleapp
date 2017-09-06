@@ -4,3 +4,5 @@ f:\classroom\aug22\ConsoleApp\bin\Debug\ConsoleApp.pdb
 f:\classroom\aug22\ConsoleApp\obj\Debug\ConsoleApp.csprojResolveAssemblyReference.cache
 f:\classroom\aug22\ConsoleApp\obj\Debug\ConsoleApp.exe
 f:\classroom\aug22\ConsoleApp\obj\Debug\ConsoleApp.pdb
+f:\classroom\aug22\ConsoleApp\bin\Debug\HrLibrary.dll
+f:\classroom\aug22\ConsoleApp\bin\Debug\HrLibrary.pdb
