@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp.QueryExpressionDemo</StartupObject>
+    <StartupObject>ConsoleApp.LinqDepartments</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="HrLibrary">
@@ -40,6 +40,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -54,14 +55,17 @@
     <Compile Include="CSharpViewer.cs" />
     <Compile Include="DateDemo.cs" />
     <Compile Include="DelegateDemo.cs" />
+    <Compile Include="Department.cs" />
     <Compile Include="dynamicdemo.cs" />
     <Compile Include="Employee.cs" />
     <Compile Include="ExtensionMethodDemo.cs" />
     <Compile Include="Factorial.cs" />
     <Compile Include="FormatDemo.cs" />
     <Compile Include="FunDemo.cs" />
+    <Compile Include="HRDataContext.cs" />
     <Compile Include="ImplictVar.cs" />
     <Compile Include="LeapYear.cs" />
+    <Compile Include="LinqDepartments.cs" />
     <Compile Include="ListNames.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="PointDemo.cs" />
