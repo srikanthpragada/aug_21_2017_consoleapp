@@ -6,3 +6,9 @@ f:\classroom\aug22\ConsoleApp\obj\Debug\ConsoleApp.exe
 f:\classroom\aug22\ConsoleApp\obj\Debug\ConsoleApp.pdb
 f:\classroom\aug22\ConsoleApp\bin\Debug\HrLibrary.dll
 f:\classroom\aug22\ConsoleApp\bin\Debug\HrLibrary.pdb
+f:\classroom\aug22\ConsoleApp\bin\Debug\hr.mdf
+f:\classroom\aug22\ConsoleApp\bin\Debug\hr_log.ldf
+f:\classroom\aug22\ConsoleApp\bin\Debug\EntityFramework.dll
+f:\classroom\aug22\ConsoleApp\bin\Debug\EntityFramework.SqlServer.dll
+f:\classroom\aug22\ConsoleApp\bin\Debug\EntityFramework.xml
+f:\classroom\aug22\ConsoleApp\bin\Debug\EntityFramework.SqlServer.xml
